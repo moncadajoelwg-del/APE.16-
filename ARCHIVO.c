@@ -87,6 +87,6 @@ void mostrarResultado(char operacion[], int res[2][3]) {
         for(j = 0; j < 3; j++) {
             printf("%d\t", res[i][j]);
         }
+        printf("\n"); // Salto de línea para corregir el formato y que se vea como tabla
     }
 }
-
